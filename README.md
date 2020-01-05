@@ -14,3 +14,6 @@ Coursera Course: https://www.coursera.org/learn/convolutional-neural-networks/ho
 1.3 Why CNN
 - Parameter sharing: It reduces athe total number of parameters, thus reducing overfitting; it allows a feature detector to be used in multiple locations throughout the whole input image/input volume
 - Sparsity of connections: each activation in the next layer depends on only a small number of activations from the previous layer.
+
+1.4 Convolution Model step by step project
+  - [Convolution Model step by step Link](Convolution_model_Step_by_Step_v2a.ipynb)
