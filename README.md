@@ -20,3 +20,21 @@ Coursera Course: https://www.coursera.org/learn/convolutional-neural-networks/ho
 
 1.5 Convolution model Application project
  - [Convolution model Application Link](Convolution_model_Application_v1a.ipynb)
+
+2.1 Facts about very deep ConvNet
+ - In order to be able to build very deep networks, we usually only use pooling layers to downsize the height/width of the activation volumes while convolutions are used with “SAME” padding. Otherwise, we would downsize the input of the model too quickly.
+ 
+ 2.2 ResNet
+ - The skip-connection makes it easy for the network to learn an identity mapping between the input and the output within the ResNet block.
+ - Using a skip-connection helps the gradient to backpropagate and thus helps you to train deeper networks
+ - A ResNet with L layers would have on the order of L/2 (L divided by 2) skip connections in total. 
+
+ 2.3 Inception NN
+ 	- Inception blocks usually use 1x1 convolutions to reduce the input data volume’s size before applying 3x3 and 5x5 convolutions.
+	- A single inception block allows the network to use a combination of 1x1, 3x3, 5x5 convolutions and pooling.
+	- Making an inception network deeper (by stacking more inception blocks together), the performance increase and then decrease (or the error decrease and then increase). Only ResNet performance always increase.
+
+ 2.4 Practical advise - using open-source implementations of ConvNets
+ 	- It is a convenient way to get working an implementation of a complex ConvNet architectue
+	- Parameters trained for one computer vision task are often useful as pretraining for other computer vision tasks.
+	- The same techniques for winning computer vision competitions, such as using multiple crops at test time, are used at benchmark and winning competitions, but are NOT usually used in practical deployments (or production system deployments) of ConvNets (due to increased computation cost)
