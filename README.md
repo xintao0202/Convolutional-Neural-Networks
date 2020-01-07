@@ -30,11 +30,11 @@ Coursera Course: https://www.coursera.org/learn/convolutional-neural-networks/ho
  - A ResNet with L layers would have on the order of L/2 (L divided by 2) skip connections in total. 
 
  2.3 Inception NN
- 	- Inception blocks usually use 1x1 convolutions to reduce the input data volume’s size before applying 3x3 and 5x5 convolutions.
-	- A single inception block allows the network to use a combination of 1x1, 3x3, 5x5 convolutions and pooling.
-	- Making an inception network deeper (by stacking more inception blocks together), the performance increase and then decrease (or the error decrease and then increase). Only ResNet performance always increase.
+ - Inception blocks usually use 1x1 convolutions to reduce the input data volume’s size before applying 3x3 and 5x5 convolutions.
+ - A single inception block allows the network to use a combination of 1x1, 3x3, 5x5 convolutions and pooling.
+ - Making an inception network deeper (by stacking more inception blocks together), the performance increase and then decrease (or the error decrease and then increase). Only ResNet performance always increase.
 
  2.4 Practical advise - using open-source implementations of ConvNets
- 	- It is a convenient way to get working an implementation of a complex ConvNet architectue
-	- Parameters trained for one computer vision task are often useful as pretraining for other computer vision tasks.
-	- The same techniques for winning computer vision competitions, such as using multiple crops at test time, are used at benchmark and winning competitions, but are NOT usually used in practical deployments (or production system deployments) of ConvNets (due to increased computation cost)
+ - It is a convenient way to get working an implementation of a complex ConvNet architectue
+ - Parameters trained for one computer vision task are often useful as pretraining for other computer vision tasks.
+ - The same techniques for winning computer vision competitions, such as using multiple crops at test time, are used at benchmark and winning competitions, but are NOT usually used in practical deployments (or production system deployments) of ConvNets (due to increased computation cost)
