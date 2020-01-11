@@ -38,3 +38,9 @@ Coursera Course: https://www.coursera.org/learn/convolutional-neural-networks/ho
  - It is a convenient way to get working an implementation of a complex ConvNet architectue
  - Parameters trained for one computer vision task are often useful as pretraining for other computer vision tasks.
  - The same techniques for winning computer vision competitions, such as using multiple crops at test time, are used at benchmark and winning competitions, but are NOT usually used in practical deployments (or production system deployments) of ConvNets (due to increased computation cost)
+
+2.5 Keras Tutorial
+  - [Keras Tutorial Link](Keras - Tutorial - Happy House v2.ipynb)
+
+2.6 Residual Networks
+ - [Residual Networks Link](Residual Networks - v2.ipynb)
