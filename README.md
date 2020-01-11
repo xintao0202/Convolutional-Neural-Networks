@@ -40,7 +40,7 @@ Coursera Course: https://www.coursera.org/learn/convolutional-neural-networks/ho
  - The same techniques for winning computer vision competitions, such as using multiple crops at test time, are used at benchmark and winning competitions, but are NOT usually used in practical deployments (or production system deployments) of ConvNets (due to increased computation cost)
 
 2.5 Keras Tutorial
-  - [Keras Tutorial Link](Keras - Tutorial - Happy House v2.ipynb)
+  - [Keras Tutorial Link](Keras_Tutorial_v2a.ipynb)
 
 2.6 Residual Networks
- - [Residual Networks Link](Residual Networks - v2.ipynb)
+ - [Residual Networks Link](Residual_Networks_v2a.ipynb)
