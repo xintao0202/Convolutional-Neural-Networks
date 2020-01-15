@@ -49,3 +49,5 @@ Coursera Course: https://www.coursera.org/learn/convolutional-neural-networks/ho
  - YOLO Algorithm: INPUT {Pc, by, bh, bw, C1, C2, C3,...Cn} Pc=1 if exist the object, Cx=1 if object x present. If the object has a known size, bn and bw can be neglect. OUTPUT volume= X*Y*a*(n+5). X*Y is sieze of grid. n is number of classes. 5 comes from Pc and bx,by,bh,bw
  - No-max suppression: discard all box with Pc<=threshold1. Discard any remaining box with IOU>=threshold2. IOU is intersection of uion=size of intersection/size of uion.
  
+3.2 Autonomous_driving_application_Car_detection Project
+- [Autonomous_driving_application_Car_detection Link](Autonomous_driving_application_Car_detection_v3a.ipynb)
