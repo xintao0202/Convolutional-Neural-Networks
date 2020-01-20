@@ -74,3 +74,6 @@ Coursera Course: https://www.coursera.org/learn/convolutional-neural-networks/ho
  
 4.6 3D generalizations.
   - Same as 2D. e.g. input volume size 32*32*32*16(# of channels), filter dimension: 3*3*3, 32 filters, no padding and stride 1, then ouput volume is 30*30*30*32.
+
+4.7 Deep Learning & Art: Neural Style Transfer Project
+ - [Deep Learning & Art: Neural Style Transfer Project Link](Art_Generation_with_Neural_Style_Transfer_v3a.ipynb)
