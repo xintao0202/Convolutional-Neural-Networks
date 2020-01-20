@@ -51,3 +51,26 @@ Coursera Course: https://www.coursera.org/learn/convolutional-neural-networks/ho
  
 3.2 Autonomous_driving_application_Car_detection Project
 - [Autonomous_driving_application_Car_detection Link](Autonomous_driving_application_Car_detection_v3a.ipynb)
+
+4.1 One-shot learning problem
+
+ - One-shot is an object categorization problem, found mostly in computer vision. Whereas most machine learning based object categorization algorithms require training on hundreds or thousands of samples/images and very large datasets, one-shot learning aims to learn information about object categories from one, or only a few, training samples/images.
+ - In one-shot learning, we learn fucntion d(img1, img2) to get the similarity (difference) of two images. 
+ - Why do we learn function d(img1, img2)?
+			-i. It doesn’t work to put it in a network and using a softmax output, since we may not having enough training sets or we can't             afford re-train a new network if we have a new person as input in the network. 
+			-ii. We need to solve one-shot learning problem
+      -iii. This allows us to learn to recognize a new person give just a single image of that person
+    
+ 4.2 Training a face recoginition system
+  - it would require quite a few pcitures for one person to comprise the training set. 
+  
+ 4.3 Siamese network architectures:
+  - Running two identical ConvNet on two different inputs and then comparing them is called a Siamese NN architecture; They have Identical parameters
+  - F(x1) is a encoding of the input image x1, the way you can build a face recognition system then is then that if you want to compare two pictures. What you can do a feed this second picture x2 to the same neural network the SAME parameters and get a different vector
+  
+ 4.5 Neural Style Transfer: 
+ - 	The goal is not to train the network but use the network to generate a new image until which satisfies the cost function
+ -  It is a unsupervised learning, since there is no lable, no labele data.
+ 
+4.6 3D generalizations.
+  - Same as 2D. e.g. input volume size 32*32*32*16(# of channels), filter dimension: 3*3*3, 32 filters, no padding and stride 1, then ouput volume is 30*30*30*32.
