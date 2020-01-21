@@ -77,3 +77,6 @@ Coursera Course: https://www.coursera.org/learn/convolutional-neural-networks/ho
 
 4.7 Deep Learning & Art: Neural Style Transfer Project
  - [Deep Learning & Art: Neural Style Transfer Project Link](Art_Generation_with_Neural_Style_Transfer_v3a.ipynb)
+
+4.8 Face Recognition Project
+ - [Face Recognition Project Link](Face_Recognition_v3a.ipynb)
