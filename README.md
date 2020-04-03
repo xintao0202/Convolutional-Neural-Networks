@@ -9,7 +9,7 @@ Coursera Course: https://www.coursera.org/learn/convolutional-neural-networks/ho
 	- Same for n_H;  
 	- n(l)_c = number of filters 
 - Padding increase size of volumn by 2*padding, it doesn't affect the number of channels
-- Output volume after padding: n_H*n_W*n_c. (n_H-filter_size)/stride+1; same for n_W; number of channel doesn't change
+- Same convolution: pad so that output size is the same as input size: padding= (filter_size-1)/2
 
 1.2 Max pooling
 - Even pooling layers don not have parameters, they DO affect the backpropagation (derivatives) calculation; Even though a pooling layer has no parameters for backprop to update, you still need to backpropagation the gradient through the pooling layer in order to compute gradients for layers that came before the pooling layer.
