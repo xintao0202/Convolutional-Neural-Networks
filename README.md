@@ -5,7 +5,7 @@ Coursera Course: https://www.coursera.org/learn/convolutional-neural-networks/ho
 - Without CNN number of parameters needed for a NN layer=(image width * image height * number of channel (RGB has three)+1 (bias))* number of neurons in the layer
 - WIth CNN number of parameters needed for a layer= (filter size * filter size * number of channel+ 1 (bias))* number of filters
 - Ouput volumn n(l)_H * n(l)_W * n(l)_c: 
-	- n_H=(n(l-1)_H + 2 * padding - filter_size) / stride + 1; 
+	- n(l)_H=(n(l-1)_H + 2 * padding - filter_size) / stride + 1; 
 	- Same for n_H;  
 	- n(l)_c = number of filters 
 - Padding increase size of volumn by 2*padding, it doesn't affect the number of channels
